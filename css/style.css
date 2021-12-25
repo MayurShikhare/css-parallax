@@ -1,0 +1,174 @@
+/*
+bootstrap links
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+book
+https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+
+
+convo
+https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+
+walk
+https://images.pexels.com/photos/207697/pexels-photo-207697.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+
+dream
+https://images.pexels.com/photos/279321/pexels-photo-279321.jpeg?cs=srgb&dl=art-arts-and-crafts-board-game-conceptual-279321.jpg&fm=jpg
+
+learn
+https://images.pexels.com/photos/545067/pexels-photo-545067.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+
+create
+https://images.pexels.com/photos/1539581/pexels-photo-1539581.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
+
+
+*/
+
+body,html{
+  margin: 0%;
+  height: 100%;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  line-height: 1.8em;
+  color: #666;
+}
+.book, .walk, .dream, .learn, .create,.achieve{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.70;
+  background-attachment: fixed;
+}
+.book{
+min-height: 100%;
+background-image: url('https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+}
+
+.walk{
+  min-height: 500px;
+  background-image: url('https://images.pexels.com/photos/207697/pexels-photo-207697.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+
+}
+
+.dream{
+  min-height: 400px;
+  background-image: url('https://images.pexels.com/photos/279321/pexels-photo-279321.jpeg?cs=srgb&dl=art-arts-and-crafts-board-game-conceptual-279321.jpg&fm=jpg');
+
+}
+
+.learn{
+  min-height: 400px;
+  background-image: url('https://images.pexels.com/photos/545067/pexels-photo-545067.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+
+}
+
+.create{
+  min-height: 450px;
+  background-image: url('https://images.pexels.com/photos/1539581/pexels-photo-1539581.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  
+
+}
+.achieve{
+  min-height: 400px;
+  background-image: url('https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+
+}
+.section{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.section-dark{
+background: #000;
+color: #fff;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  text-transform:full-width;
+  color: black;
+  letter-spacing: 20px;
+  font-weight:bolder;
+  text-shadow: 2px 4px pink;
+}
+
+.text .border{
+  background-color:none ;
+  color:#FFF ;
+  padding: 20px;
+  border-radius: 20px;
+  border-right:2px solid white;
+  border-left:2px solid white;
+
+
+}
+
+footer{
+  margin: 0;
+  background: #FFF;
+  color: #000;
+  height:300px;
+}
+
+footer ul li{
+  text-decoration: none;
+  display:inline;
+  margin-right: 60px;
+  position: relative;
+  align-items: center;
+  left: 26%;
+  top:100px;
+
+}
+footer ul li i{
+  padding: 20px;
+  /*background: #ff0490;*/
+  border-radius: 20px;
+  box-shadow: 10px 10px grey;
+
+
+}
+
+footer i:hover {
+
+  background: yellow;
+  animation: blink 2s 1;
+}
+
+@keyframes blink {
+from{transform:rotateZ(0deg);}
+to{transform:rotateZ(360deg);}
+}
+
+footer ul li #fb{
+  background:#0a74f5;
+  color:white;
+}
+footer ul li #youtube{
+  background:red;
+  color:white;
+}
+
+footer ul li #insta{
+  background-image: linear-gradient(#405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
+  color:white;
+}
+footer ul li #LI{
+  background:#0a97f5;
+  color:white;
+}
+#copyright{
+  position:relative;
+  top:120px;
+  text-align:center;
+}
